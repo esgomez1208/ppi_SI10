@@ -35,5 +35,5 @@ monthly_avg = df.groupby('month')['meantemp'].mean()
 st.line_chart(monthly_avg)
 
 
-# Crear una figura
+# figura
 fig, ax = plt.subplots()
